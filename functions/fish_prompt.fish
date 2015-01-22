@@ -1,5 +1,4 @@
 function fish_prompt --description 'Write out the prompt'
-	
 	set -l last_status $status
 
 	# Just calculate these once, to save a few cycles when displaying the prompt
@@ -51,7 +50,6 @@ function fish_prompt --description 'Write out the prompt'
 		end
 
 	case '*'
-
 		if not set -q __fish_prompt_cwd
 			set -g __fish_prompt_cwd (set_color $fish_color_cwd)
 		end

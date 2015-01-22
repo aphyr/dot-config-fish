@@ -1,3 +1,3 @@
 function gu
-	git pull $argv; 
+	git pull $argv;
 end
